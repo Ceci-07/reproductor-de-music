@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: var(--blue);
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    display: grid;
+    margin-top: 50px;
+    
+    
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-size: cover;
+    background-image: url('./icons/musica.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid grey;
+    border-radius: 30px;
+    box-shadow:23px 23px 30px #acacac,
+    -23px -23px 30px #ffffff; ;
+    
+}
+.text{
+    display: flex;
+    width:90px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    height: 2.6rem;
+}
+.text div{
+    padding: 3px;
+    
+}
+.progress-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.progress-bar img{
+    width: 100%;
+}
+.iconos{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+.iconos ul li{
+    display: inline-block;
+    margin: 0 5px; 
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
